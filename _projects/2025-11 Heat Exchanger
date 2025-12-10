@@ -25,18 +25,25 @@ For this setup, we used two submersible water pumps to pump water from resevoirs
 <h3> Diagram </h3>
 
 <br>
-<h3> Calculations </h3>
+<h3> Analysis </h3>
+<h5>Data</h5>
+<img src="/assets/images/Lab data.PNG" width="500" /> <br> <br>
 <h5> Assumptions </h5>
 <ul style="list-style-type:disc;">
 <li> I assumed that there was minimal change in velocity and elevation between the entrance and exit of the heat exchanger, resulting in minimal change in kinetic and gravitational potential energy </li>
-<li> As noted below, there was more than one heat flow into the system. Heat likely flowed into the cold side of the heat exchanger, while simulanteously flowing out of the hot side. Unfortunately, my group did not take quantatative measurements of the temperature on each side of the heat exchanger, nor of the ambient air.
+<li> As noted below, there was more than one heat flow into the system. Heat likely flowed into the cold side of the heat exchanger, while simulanteously flowing out of the hot side. Unfortunately, my group did not take quantatative measurements of the temperature on each side of the heat exchanger, nor of the ambient air
     <ul> 
     <li> Instead, in my diagrams and calculations, I generalized $Q_{ambient}$ as a single term </li>
     </ul>
 <li> 
     I modeled the liquid water as an incompressible substance, using $c_p$ values from "Fundamentals of Engineering Thermodynamics" reference tables, interpolated to the average temperature
 </li>
-
+<li>
+    I modeled the system as steady state
+</li>
+<li>
+    I modeled the mass flow rate of both fluids as roughly equal, as they were being driven by identical pumps 
+</li>
 
 </ul>
 <h3> Qualitative Notes </h3>
