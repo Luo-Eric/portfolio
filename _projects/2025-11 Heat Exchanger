@@ -33,10 +33,10 @@ For this setup, we used two submersible water pumps to pump water from resevoirs
 <li> I assumed that there was minimal change in velocity and elevation between the entrance and exit of the heat exchanger, resulting in minimal change in kinetic and gravitational potential energy </li>
 <li> As noted below, there was more than one heat flow into the system. Heat likely flowed into the cold side of the heat exchanger, while simulanteously flowing out of the hot side. Unfortunately, my group did not take quantatative measurements of the temperature on each side of the heat exchanger, nor of the ambient air
     <ul> 
-    <li> Instead, in my diagrams and calculations, I generalized $Q_{ambient}$ as a single term </li>
+    <li> Instead, in my diagrams and calculations, I generalized \(Q_{ambient}\)  as a single term </li>
     </ul>
 <li> 
-    I modeled the liquid water as an incompressible substance, using $c_p$ values from "Fundamentals of Engineering Thermodynamics" reference tables, interpolated to the average temperature
+    I modeled the liquid water as an incompressible substance, using \(c_p\) values from "Fundamentals of Engineering Thermodynamics" reference tables, interpolated to the average temperature
 </li>
 <li>
     I modeled the system as steady state
@@ -49,7 +49,7 @@ For this setup, we used two submersible water pumps to pump water from resevoirs
 <h3> Qualitative Notes </h3>
 <ul style="list-style-type:disc;">
 <li>While running, the sides of the heat exchanger felt noticibly warm or cold to the touch, indicating that the heat exchanger was not truely adiabatic. </li>
-<li>Additionally, counter-flow resulted in a greater temperature differential. Though it may be surprising that changing the directions of the flow would impact the efficiency of the heat exchanger, this makes sense, as in parallel flow, the two lines approach each other's temperature. However, in counter-flow, it is possible for each line to approach the original temperature the opposite resevoir. </li>
+<li>Additionally, counter-flow resulted in a greater temperature differential. Though it may be surprising that changing the directions of the flow would impact the efficiency of the heat exchanger so significantly, this makes sense, as in parallel flow, the two lines approach each other's temperature. However, in counter-flow, it is possible for each line to approach the original temperature the opposite resevoir. </li>
 </ul>
 
 <br> <br>
