@@ -41,7 +41,8 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
                 <li> Instead, in my diagrams and calculations, I generalized \(Q_{ambient}\) as a single term </li>
             </ul>
         <li>
-            I modeled the liquid water as an incompressible substance, using \(c_p\) values from Table A-19 of "Fundamentals of
+            I modeled the liquid water as an incompressible substance, using \(c_p\) values from Table A-19 of
+            "Fundamentals of
             Engineering Thermodynamics", interpolated to the average temperature
         </li>
         <li>
@@ -53,11 +54,11 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
 
     </ul>
     <h5> Calculations </h5>
-    $$ 
-        T_{c, avg}= 12.15 \; C \\
-        c_{p, c} = 4.201 \frac{kJ}{kg*K} \\
-
-    $$ 
+    $$
+    T_{c, avg}= 12.15 \; C \\
+    c_{p, c} = 4.201 \frac{kJ}{kg*K} \\
+     \Delta E = 0 = \dot{Q}_{ambient} - \dot{W} + \dot{m}_{c}(h_{c,in}+h_{c,out}) + \dot{m}_{h}(h_{h,in}+h_{h,out})
+    $$
     <h3> Qualitative Notes </h3>
     <ul style="list-style-type:disc;">
         <li>While running, the sides of the heat exchanger felt noticibly warm or cold to the touch, indicating that the
