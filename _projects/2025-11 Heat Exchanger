@@ -39,8 +39,7 @@ table, th, td {
 
     <h3> Diagram </h3>
 
-    <h3> Analysis </h3>
-    <h5><a href="/assets/images/Lab data.PNG" title="Original Lab Notes (unformatted)">>Data</a></h5>
+    <h4><a href="/assets/images/Lab data.PNG" title="Original Lab Notes (unformatted)">>Data</a></h4>
    <h6>Parallel Flow</h6>
     <table>
   <tr>
@@ -79,7 +78,7 @@ table, th, td {
   </tr>
 </table>
 <br>
-    <h5> Assumptions </h5>
+    <h4> Assumptions </h4>
     <ul style="list-style-type:disc;">
         <li> I assumed that there was minimal change in velocity and elevation between the entrance and exit of the heat
             exchanger, resulting in minimal change in kinetic and gravitational potential energy </li>
@@ -104,8 +103,8 @@ table, th, td {
         </li>
 
     </ul>
-    <h5> Calculations </h5>
-    <h6> \(Q_{ambient}\) for Parallel Flow </h6>
+    <h4> \(Q_{ambient}\) Calculations </h4>
+    <h6>Parallel Flow </h6>
     $$
     T_{c, avg}= 12.15 \; ^oC \qquad T_{h, avg}= 38.9 \; ^oC \\
     c_{p, c} = 4.201 \frac{kJ}{kg*K} \qquad c_{p, h} = 4.179 \frac{kJ}{kg*K} \\
@@ -114,7 +113,7 @@ table, th, td {
     \dot{Q}_{ambient} = \dot{m}(c_{p,c}(T_{c,out}+T_{c,in}) + c_{p,h}(T_{h,out}+T_{h,in})) \\
     \frac{\dot{Q}_{ambient}}{\dot{m}} = 0.77 \frac{kJ}{kg*K}
     $$
-    <h6> \(Q_{ambient}\) for Counter Flow </h6>
+    <h6>Counter Flow </h6>
     $$
     T_{c, avg}= 14 \; ^oC \qquad T_{h, avg}= 23.3 \; ^oC \\
     c_{p, c} = 4.159 \frac{kJ}{kg*K} \qquad c_{p, h} = 4.184 \frac{kJ}{kg*K} \\
@@ -126,6 +125,8 @@ table, th, td {
         <li>Compared to the heat exchange between the cold and hot water flows, \(Q_{ambient}\) is 
             negligible. In future calculations, I will model the heat exchanger as roughly adiabatic. </li>
     </ul>
+    <h4> Efficiency Calculations</h4>
+
     <h3> Qualitative Notes </h3>
     <ul style="list-style-type:disc;">
         <li>While running, the sides of the heat exchanger felt noticibly warm or cold to the touch, indicating that the
