@@ -40,7 +40,7 @@ table, th, td {
     <h3> Diagram </h3>
 
     <h3> Analysis </h3>
-    <h5><a href="/assets/images/Lab data.PNG">Data</a></h5>
+    <h5><a href="/assets/images/Lab data.PNG" title="Original Lab Notes (unformatted)">>Data</a></h5>
    <h6>Parallel Flow</h6>
     <table>
   <tr>
@@ -59,7 +59,7 @@ table, th, td {
     <td>23.1</td>
   </tr>
 </table>
-
+<br>
 <h6>Counter Flow</h6>
     <table>
   <tr>
@@ -78,7 +78,7 @@ table, th, td {
     <td>17.8</td>
   </tr>
 </table>
-
+<br>
     <h5> Assumptions </h5>
     <ul style="list-style-type:disc;">
         <li> I assumed that there was minimal change in velocity and elevation between the entrance and exit of the heat
