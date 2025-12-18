@@ -41,8 +41,8 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
                 <li> Instead, in my diagrams and calculations, I generalized \(Q_{ambient}\) as a single term </li>
             </ul>
         <li>
-            I modeled the liquid water as an incompressible substance, using \(c_p\) values from "Fundamentals of
-            Engineering Thermodynamics" reference tables, interpolated to the average temperature
+            I modeled the liquid water as an incompressible substance, using \(c_p\) values from Table A-19 of "Fundamentals of
+            Engineering Thermodynamics", interpolated to the average temperature
         </li>
         <li>
             I modeled the system as steady state
