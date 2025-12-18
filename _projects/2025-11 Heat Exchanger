@@ -29,6 +29,24 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
     <h3> Analysis </h3>
     <h5>Data</h5>
     <img src="/assets/images/Lab data.PNG" width="500" /> <br> <br>
+    <table>
+  <tr>
+    <th>Person 1</th>
+    <th>Person 2</th>
+    <th>Person 3</th>
+  </tr>
+  <tr>
+    <td>Emil</td>
+    <td>Tobias</td>
+    <td>Linus</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>14</td>
+    <td>10</td>
+  </tr>
+</table>
+
     <h5> Assumptions </h5>
     <ul style="list-style-type:disc;">
         <li> I assumed that there was minimal change in velocity and elevation between the entrance and exit of the heat
@@ -38,7 +56,8 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
             quantatative measurements of the temperature on each side of the heat exchanger, nor of the ambient air
             <ul>
                 <li> Instead, in my diagrams and calculations, I generalized \(Q_{ambient}\) as a single term </li>
-                <li> I will explicitly calculate the value of \(Q_{ambient}\) to determine whether or not it is negligible</li>
+                <li> I will explicitly calculate the value of \(Q_{ambient}\) to determine whether or not it is
+                    negligible</li>
             </ul>
         <li>
             I modeled the liquid water as an incompressible substance, using \(c_p\) values from Table A-19 of
@@ -72,8 +91,8 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
     $$
     <h6> Interpretation</h6>
     <ul style="list-style-type:disc;">
-        <li>Compared to the heat exchange between the cold and hot water flows, \(Q_{ambient}\) is negligible. In
-            future calculations, I will model the heat exchanger as roughly adiabatic. </li>
+        <li>Compared to the heat exchange between the cold and hot water flows, \(Q_{ambient}\) is 
+            negligible. In future calculations, I will model the heat exchanger as roughly adiabatic. </li>
     </ul>
     <h3> Qualitative Notes </h3>
     <ul style="list-style-type:disc;">
