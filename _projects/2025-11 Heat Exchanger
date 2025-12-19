@@ -85,11 +85,20 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
     </tr>
   </table>
   <br>
+  <h4> Qualitative Notes </h4>
+  <ul style="list-style-type:disc;">
+    <li>While running, the sides of the heat exchanger felt noticeably warm/cold to the touch, indicating that the
+      heat exchanger was not truly adiabatic. </li>
+    <li>Additionally, counter-flow resulted in a greater temperature differential. Though it may be surprising that
+      changing the directions of the flow would impact the efficiency of the heat exchanger so significantly, this
+      makes sense, as in parallel flow, the two lines approach each other's temperature. However, in counter-flow,
+      it is possible for each line to approach the original temperature the opposite reservoir. </li>
+  </ul>
   <h4> Assumptions </h4>
   <ul style="list-style-type:disc;">
     <li> I assumed that there was minimal change in velocity and elevation between the entrance and exit of the heat
       exchanger, resulting in minimal change in kinetic and gravitational potential energy </li>
-    <li> As noted below, there was more than one heat flow into the system. Heat likely flowed into the cold side of
+    <li> As noted above, there was more than one heat flow into the system. Heat likely flowed into the cold side of
       the heat exchanger, while simulanteously flowing out of the hot side. Unfortunately, my group did not take
       quantatative measurements of the temperature on each side of the heat exchanger, nor of the ambient air
       <ul>
@@ -133,7 +142,7 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
   <h6> Interpretation</h6>
   <ul style="list-style-type:disc;">
     <li>Compared to the heat exchange between the cold and hot water flows, \(Q_{ambient}\) is
-      negligible. In future calculations, I will model the heat exchanger as roughly adiabatic. </li>
+      negligible. In future calculations, I will model the heat exchanger as roughly adiabatic </li>
   </ul>
 
   <h4> Performance Calculations</h4>
@@ -154,17 +163,21 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
   $$
   <h6> Counter Flow</h6>
   $$
+  \text{As above, though based on Figure 3,} \\
+  \dot{Q}_{t, h} = \dot{m}(c_{p,h})(T_{h,in}+T_{h,out}) \\
+  \frac{\dot{Q}_{t,h}}{\dot{m}} = 87.86 \frac{kJ}{kg*K} \\
+  \text{Again,} \quad \dot{Q}_{t, c} = \dot{m}(c_{p,c})(T_{c,out}+T_{c,in}) \\
+  \frac{\dot{Q}_{t,c}}{\dot{m}} = 81.52 \frac{kJ}{kg*K} \\
+  \text{Finally,} \quad \frac{\dot{Q}_{t,counter}}{\dot{m}} = 84.69 \frac{kJ}{kg*K} \\
   $$
-  <h3> Qualitative Notes </h3>
+  <h4> Interpretation</h4>
   <ul style="list-style-type:disc;">
-    <li>While running, the sides of the heat exchanger felt noticibly warm or cold to the touch, indicating that the
-      heat exchanger was not truly adiabatic. </li>
-    <li>Additionally, counter-flow resulted in a greater temperature differential. Though it may be surprising that
-      changing the directions of the flow would impact the efficiency of the heat exchanger so significantly, this
-      makes sense, as in parallel flow, the two lines approach each other's temperature. However, in counter-flow,
-      it is possible for each line to approach the original temperature the opposite reservoir. </li>
+    <li>There was much more heat transfer in counter flow than in parallel flow</li>
+    <ul>
+      <li>Quantitatively, there was 27.5% more heat transfer in counter flow than in parallel flow</li>
+      <li>This was despite the set-up being the same except for slight differences in the initial hot water temperature</li>
+    </ul>
   </ul>
-
-  <br> <br>
+  <br><br>
 
 </body>
