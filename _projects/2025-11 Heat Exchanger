@@ -32,7 +32,7 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
   used with heated and chilled water. In the image below, the heat exchanger is set to operate in a counter-flow
   configuration. We also took measurements regarding a parallel flow configuration.
 
-  <img src="/assets/images/Setup wet.JPG" width="100%" /> <br>
+  <img src="assets/images/Setup wet.JPG" width="100%" /> <br>
   <ul style="list-style-type:disc;">
     <li>For this setup, we used two submersible water pumps to pump water from resevoirs, through the heat exchanger
       and into catch buckets. </li>
