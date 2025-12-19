@@ -122,14 +122,13 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
   <h4> \(Q_{ambient}\) Calculations </h4>
   <h6>Parallel Flow </h6>
   $$
-
-  T_{c, avg}= 12.15 \; ^oC \qquad T_{h, avg}= 38.9 \; ^oC <br>
-  c_{p, c} = 4.201 \frac{kJ}{kg*K} \qquad c_{p, h} = 4.179 \frac{kJ}{kg*K} \\\
-  \text{Based on Figure 1,} \quad
-  \Delta E = 0 = \dot{Q}_{ambient} - \dot{W} + \dot{m}_{c}(h_{c,in}+h_{c,out}) + \dot{m}_{h}(h_{h,in}+h_{h,out}) \\\
-  W = 0, \, \dot{m}_c = \dot{m}_c \qquad \dot{Q}_{ambient} = \dot{m}((h_{c,out}+h_{c,in}) + (h_{h,out}+h_{h,in})) \\
-  \dot{Q}_{ambient} = \dot{m}(c_{p,c}(T_{c,out}+T_{c,in}) + c_{p,h}(T_{h,out}+T_{h,in})) \\
-  \frac{\dot{Q}_{ambient}}{\dot{m}} = 0.77 \frac{kJ}{kg*K}
+  \displaylines{T_{c, avg}= 12.15 \; ^oC \qquad T_{h, avg}= 38.9 \; ^oC }
+  \displaylines{ c_{p, c} = 4.201 \frac{kJ}{kg*K} \qquad c_{p, h} = 4.179 \frac{kJ}{kg*K}} 
+  \displaylines{\text{Based on Figure 1,} \quad
+  \Delta E = 0 = \dot{Q}_{ambient} - \dot{W} + \dot{m}_{c}(h_{c,in}+h_{c,out}) + \dot{m}_{h}(h_{h,in}+h_{h,out})}
+  \displaylines{W = 0, \, \dot{m}_c = \dot{m}_c \qquad \dot{Q}_{ambient} = \dot{m}((h_{c,out}+h_{c,in}) + (h_{h,out}+h_{h,in}))}
+  \displaylines{\dot{Q}_{ambient} = \dot{m}(c_{p,c}(T_{c,out}+T_{c,in}) + c_{p,h}(T_{h,out}+T_{h,in}))}
+  \displaylines{\frac{\dot{Q}_{ambient}}{\dot{m}} = 0.77 \frac{kJ}{kg*K}}
   $$
   <h6>Counter Flow </h6>
   $$
