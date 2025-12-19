@@ -123,7 +123,7 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
   <h6>Parallel Flow </h6>
   $$
 
-  T_{c, avg}= 12.15 \; ^oC \qquad T_{h, avg}= 38.9 \; ^oC \\
+  T_{c, avg}= 12.15 \; ^oC \qquad T_{h, avg}= 38.9 \; ^oC <br>
   c_{p, c} = 4.201 \frac{kJ}{kg*K} \qquad c_{p, h} = 4.179 \frac{kJ}{kg*K} \\
   \text{Based on Figure 1,} \quad
   \Delta E = 0 = \dot{Q}_{ambient} - \dot{W} + \dot{m}_{c}(h_{c,in}+h_{c,out}) + \dot{m}_{h}(h_{h,in}+h_{h,out}) \\
