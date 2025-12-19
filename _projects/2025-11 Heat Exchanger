@@ -32,7 +32,7 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
   used with heated and chilled water. In the image below, the heat exchanger is set to operate in a counter-flow
   configuration. We also took measurements regarding a parallel flow configuration.
 
-  <img src="/assets/images/Setup wet.JPG" width="100%" /> <br>
+  <img src="/fa25-portfolio-EricLuo/assets/images/Setup wet.JPG" width="100%" /> <br>
   <ul style="list-style-type:disc;">
     <li>For this setup, we used two submersible water pumps to pump water from resevoirs, through the heat exchanger
       and into catch buckets. </li>
@@ -40,13 +40,13 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
 
   <h3> Diagrams </h3>
   <h6 id="fig 1"> Figure 1 </h6>
-  <img src="/assets/images/HE Lab Diagram.jpeg" style="width:100%; margin-bottom: 12px;">
+  <img src="/fa25-portfolio-EricLuo/assets/images/HE Lab Diagram.jpeg" style="width:100%; margin-bottom: 12px;">
   <h6 id="fig 2"> Figure 2 </h6>
-  <img src="/assets/images/Parallel flow.jpeg" style="width:100%; margin-bottom: 12px;">
+  <img src="/fa25-portfolio-EricLuo/assets/images/Parallel flow.jpeg" style="width:100%; margin-bottom: 12px;">
   <h6 id="fig 3"> Figure 3 </h6>
-  <img src="/assets/images/Counter flow.jpeg" style="width:100%; margin-bottom: 16px;">
+  <img src="/fa25-portfolio-EricLuo/assets/images/Counter flow.jpeg" style="width:100%; margin-bottom: 16px;">
 
-  <h4><a href="/assets/images/Lab data.PNG" title="Original Lab Notes (unformatted)">>Data</a></h4>
+  <h4><a href="/fa25-portfolio-EricLuo/assets/images/Lab data.PNG" title="Original Lab Notes (unformatted)">>Data</a></h4>
   <h6>Parallel Flow</h6>
   <table>
     <tr>
