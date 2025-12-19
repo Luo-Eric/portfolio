@@ -134,12 +134,13 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
   $$
   <h6>Counter Flow </h6>
   $$
+  \displaylines{
   T_{c, avg}= 14 \; ^oC \qquad T_{h, avg}= 23.3 \; ^oC \\
   c_{p, c} = 4.159 \frac{kJ}{kg*K} \qquad c_{p, h} = 4.184 \frac{kJ}{kg*K} \\
   \text{As above,} \quad
   \dot{Q}_{ambient} = \dot{m}(c_{p,c}(T_{c,out}+T_{c,in}) + c_{p,h}(T_{h,out}+T_{h,in})) \\
   \frac{\dot{Q}_{ambient}}{\dot{m}} = -6.24 \frac{kJ}{kg*K}
-  
+  }
   $$
   <h6> Interpretation</h6>
   <ul style="list-style-type:disc;">
@@ -154,6 +155,7 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
   </ul>
   <h6> Parallel Flow</h6>
   $$
+  \displaylines{
   \text{Based on Figure 2,} \quad
   \Delta E = 0 = -\dot{Q}_{t, h} - \dot{W} + \dot{m}(h_{h,in}+h_{h,out}) \\
   W = 0, \quad \dot{Q}_{t, h} = \dot{m}(h_{h,in}+h_{h,out}) \\
@@ -162,15 +164,18 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
   \text{Similarly, through reversed,} \quad \dot{Q}_{t, c} = \dot{m}(c_{p,c})(T_{c,out}+T_{c,in}) \\
   \frac{\dot{Q}_{t,c}}{\dot{m}} = 66.80 \frac{kJ}{kg*K} \\
   \text{Finally,} \quad \frac{\dot{Q}_{t,parallel}}{\dot{m}} = 66.41 \frac{kJ}{kg*K} \\
+  }
   $$
   <h6> Counter Flow</h6>
   $$
+  \displaylines{
   \text{As above, though based on Figure 3,} \\
   \dot{Q}_{t, h} = \dot{m}(c_{p,h})(T_{h,in}+T_{h,out}) \\
   \frac{\dot{Q}_{t,h}}{\dot{m}} = 87.86 \frac{kJ}{kg*K} \\
   \text{Again,} \quad \dot{Q}_{t, c} = \dot{m}(c_{p,c})(T_{c,out}+T_{c,in}) \\
   \frac{\dot{Q}_{t,c}}{\dot{m}} = 81.52 \frac{kJ}{kg*K} \\
   \text{Finally,} \quad \frac{\dot{Q}_{t,counter}}{\dot{m}} = 84.69 \frac{kJ}{kg*K} \\
+  }
   $$
   <h4> Interpretation</h4>
   <ul style="list-style-type:disc;">
