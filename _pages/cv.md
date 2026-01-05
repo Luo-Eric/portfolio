@@ -20,26 +20,26 @@ Aspiring engineering student with a strong foundation in.... Passionate about ..
 #### Education
 - **Cornell University**  
   *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.8/4.0 | Graduation: Month, Year
+  GPA: 3.907/4.0 | Graduation: May 2028
 
-- **[High School Name]**  
+- **[Glastonbury High School]**  
   *High School Diploma*  
-  Graduation: [Month, Year]
+  Graduation: May 2024
 
 ---
 
 #### Skills
-- **Software:** Autodesk Fusion 360, SolidWorks, ANSYS  
-- **Programming:** Python, MATLAB  
+- **Software:** Autodesk Fusion 360, Onshape, 
+- **Programming:** Python, Java, MATLAB  
 - **Tools:** 3D Printing, Laser Cutting  
 
 ---
 
 #### Projects
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
+- **[Thermodynamic Analysis of Heat Exchanger]**:  
+  *Behavior of Brazed Plate Heat Exchanger in Parallel and Counter Flow Configuration*  
+  - Took measurements under real-world conditions
+  - Used measurements to validate assumptions and quantify performance
 
 - **[Project Title]**:  
   *[Short Description]*  
