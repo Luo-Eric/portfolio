@@ -5,7 +5,7 @@ permalink: /cv/
 ---
 ## Curriculum Vitae
 
-[Download my CV]({"/fa25-portfolio-EricLuo/assets/Eric Luo Resume.pdf"}}) in PDF format.
+[Download my CV]({{"/assets/Eric Luo Resume.pdf" | relative_url }}) in PDF format.
 
 
 **Email:** [LuoEric05@gmail.com](mailto:LuoEric05@gmail.com) | | | **Phone:** +1 860 992 8905
