@@ -7,17 +7,18 @@ permalink: /cv/
 
 [Download my CV]({{"/assets/Eric Luo Resume.pdf" | relative_url }}) in PDF format.
 
-
 **Email:** [LuoEric05@gmail.com](mailto:LuoEric05@gmail.com) | | | **Phone:** +1 860 992 8905
 
 ---
 
 #### Objective
+
 Aspiring engineering student with a strong foundation in.... Passionate about ... and eager to apply my knowledge in real-world applications.
 
 ---
 
 #### Education
+
 - **Cornell University**  
   *Bachelor of Science in Mechanical and Aerospace Engineering*  
   GPA: 3.907/4.0 | Graduation: May 2028
@@ -29,13 +30,15 @@ Aspiring engineering student with a strong foundation in.... Passionate about ..
 ---
 
 #### Skills
-- **Software:** Autodesk Fusion 360, Onshape, 
+
+- **Software:** Autodesk Fusion 360, Onshape,
 - **Programming:** Python, Java, MATLAB  
 - **Tools:** 3D Printing, Laser Cutting  
 
 ---
 
 #### Projects
+
 - **[Thermodynamic Analysis of Heat Exchanger]**:  
   *Behavior of Brazed Plate Heat Exchanger in Parallel and Counter Flow Configuration*  
   - Took measurements under real-world conditions
@@ -49,6 +52,7 @@ Aspiring engineering student with a strong foundation in.... Passionate about ..
 ---
 
 #### Work Experience
+
 - **[Company Name] - Intern**  
   [Month, Year] - [Month, Year]  
   - Responsibility 1  
@@ -57,18 +61,21 @@ Aspiring engineering student with a strong foundation in.... Passionate about ..
 ---
 
 #### Achievements & Certifications
+
 - [Certification Name], [Issuing Organization], [Year]  
 - [Achievement Name], [Competition/Event], [Year]  
 
 ---
 
 #### Extracurricular Activities
+
 - Member of [Club/Organization Name]  
 - Volunteer for [Event/Organization Name]  
 
 ---
 
 #### References
+
 Available upon request.
 
 ---
