@@ -11,19 +11,6 @@ image: /assets/images/adult-spotted-lanternflies-Lycorma-delicatula-772704972.jp
   </script>
 </head>
 
-<style>
-  table,
-  th,
-  td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 22px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    margin-left: 10%;
-    margin-right: auto;
-  }
-</style>
 
 <body>
 
@@ -32,7 +19,7 @@ image: /assets/images/adult-spotted-lanternflies-Lycorma-delicatula-772704972.jp
   from harvested grapes. 
 
   <h3> Proposal </h3>
-
+  <img src="/fa25-portfolio-EricLuo/assets/images/Client Outline & Pitch.pdf" width="100%" />
 
   
 
