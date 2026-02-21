@@ -1,0 +1,39 @@
+---
+layout: project
+title: Proposed Device for SLF Removal
+description: Mechanical Spotted Lanternfly Remover
+technologies: [Mechanical Design]
+image: /assets/images/Brazed plate heat exchanger cut away.jpg
+---
+
+<head>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
+  </script>
+</head>
+
+<style>
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 22px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 10%;
+    margin-right: auto;
+  }
+</style>
+
+<body>
+
+  <h3> Introduction </h3>
+  Working in collaboration with [insertt clients], our team proposed 2 concepts for the removal of spotted lanternflies 
+  from harvested grapes. 
+
+  <h3> Proposal </h3>
+  
+
+  
+
+</body>
