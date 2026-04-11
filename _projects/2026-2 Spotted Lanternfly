@@ -133,7 +133,7 @@ image: /assets/images/adult-spotted-lanternflies-Lycorma-delicatula-772704972.jp
       <td>Somewhat unstable (> 5mm), added weights mitigated movement</td>
     </tr>
   </table>
-
+  <br>
 
   Conclusion: For drill speeds higher than the first setting, our mounts moved \> 5mm. To continue our tests, we used
   weights to keep the mounts in place, but in the future our mounting design needs to be updated to be sturdier. In the
