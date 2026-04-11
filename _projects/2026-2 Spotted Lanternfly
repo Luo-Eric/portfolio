@@ -135,7 +135,8 @@ image: /assets/images/adult-spotted-lanternflies-Lycorma-delicatula-772704972.jp
   </table>
   <br>
 
-  Conclusion: For drill speeds higher than the first setting, our mounts moved \> 5mm. To continue our tests, we used
+  Conclusion: <br>
+  For drill speeds higher than the first setting, our mounts moved \> 5mm. To continue our tests, we used
   weights to keep the mounts in place, but in the future our mounting design needs to be updated to be sturdier. In the
   future, we should also ensure that our shaft is rotating about its center axle, since small misalignments in rotation
   can cause instability. From our data, we can also conclude that we should drive our prototype in the clockwise
