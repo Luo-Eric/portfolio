@@ -15,9 +15,9 @@ image: /assets/images/adult-spotted-lanternflies-Lycorma-delicatula-772704972.jp
 <body>
   <h3> Navigation Menu </h3>
   <ul style="list-style-type:disc;">
-    <li><a href="intro"> Introduction </a><br /></li>
-    <li><a href="prop"> Proposal </a><br /></li>
-    <li><a href="funcProto"> Functional Prototype </a><br /></li>
+    <li><a href="#intro"> Introduction </a><br /></li>
+    <li><a href="#prop"> Proposal </a><br /></li>
+    <li><a href="#funcProto"> Functional Prototype </a><br /></li>
   </ul>
   
   
