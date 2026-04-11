@@ -103,8 +103,8 @@ image: /assets/images/adult-spotted-lanternflies-Lycorma-delicatula-772704972.jp
 
   <table>
     <tr>
-      <th>Driving Direction of Brush</th>
-      <th>Drill Speed Setting</th>
+      <th>Brush Direction</th>
+      <th>Drill Speed</th>
       <th># Modeled SLF Knocked Off</th>
       <th>Movement of Mounts</th>
     </tr>
