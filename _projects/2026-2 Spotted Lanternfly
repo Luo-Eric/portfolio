@@ -14,7 +14,13 @@ image: /assets/images/adult-spotted-lanternflies-Lycorma-delicatula-772704972.jp
 
 <body>
   <h3> Navigation Menu </h3>
-  <a href="intro"> Introduction </a><br />
+  <ul style="list-style-type:disc;">
+    <li><a href="intro"> Introduction </a><br /></li>
+    <li><a href="prop"> Proposal </a><br /></li>
+    <li><a href="funcProto"> Functional Prototype </a><br /></li>
+  </ul>
+  
+  
 
   <h3 id="intro"> Introduction </h3>
   Working in collaboration with Cornell CALS Extension, E&J Gallo Winery, and National Grape, our team proposed 2 concepts for the removal of spotted lanternflies 
