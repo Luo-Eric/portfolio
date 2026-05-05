@@ -18,6 +18,7 @@ image: /assets/images/adult-spotted-lanternflies-Lycorma-delicatula-772704972.jp
     <li><a href="#intro"> Introduction </a><br /></li>
     <li><a href="#prop"> Client Pitch </a><br /></li>
     <li><a href="#funcProto"> Functional Prototype </a><br /></li>
+    <li><a href="#report"> Client Report </a><br /></li>
   </ul>
 
   <hr> <br> <br>
@@ -40,7 +41,7 @@ image: /assets/images/adult-spotted-lanternflies-Lycorma-delicatula-772704972.jp
   will travel along the harvesting machine’s conveyor belt and pass through a rotating brush placed above. The brush
   will lightly contact the product stream, applying enough force to knock off the SLF from the grapes while minimizing
   product loss.
-  <br>
+  <br> <br>
   <h4> Design Tests </h4>
   Our prototype consists of a rotating brush mounted above a conveyor system to remove spotted lanternflies (SLF) from
   grapes during harvesting. The main mechanical risks involve brush motion and structural stability. The following tests
@@ -143,4 +144,5 @@ image: /assets/images/adult-spotted-lanternflies-Lycorma-delicatula-772704972.jp
   direction to increase SLF removal. At high speeds, the brush bristles started falling off, so we should also look at
   higher quality brushes for our next prototype.
 
+ <h2 id="report"> Client Report </h2>
 </body>
