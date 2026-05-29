@@ -15,21 +15,27 @@
 <body>
 
   <header>
-    <nav>
-      <ul>
-        <li>
-          <a href="{{ "/" | relative_url }}">Home</a>
-        </li>
-        <li>
-          <a href="{{ "/projects/" | relative_url }}">Projects</a>
-        </li>
-        <li>
-          <a href="{{ "/about/" | relative_url }}">About Me</a>
-        </li>
-        <li>
-          <a href="{{ "/cv/" | relative_url }}">CV</a>
-        </li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark text-white";>
+      <div class="container-fluid">
+        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> 
+          <span class="navbar-toggler-icon"></span>
+        </button>   -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link {% if page.url == '/' %}active{% endif %}" href="{{ "/" | relative_url }}">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link {% if page.url == '/projects/' %}active{% endif %}" href="{{ "/projects/" | relative_url }}">Projects</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link {% if page.url == '/about/' %}active{% endif %}" href="{{ "/about/" | relative_url }}">About Me</a>
+            </li><li class="nav-item">
+              <a class="nav-link {% if page.url == '/cv/' %}active{% endif %}" href="{{ "/cv/" | relative_url }}">CV</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
 
