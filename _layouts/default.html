@@ -12,11 +12,10 @@
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
 </head>
 
-<body>
-
-  <header>
+<header>
     <nav class="navbar navbar-expand-lg navbar-dark text-white";>
       <div class="container-fluid">
+        <a class="navbar-brand" href="{{ "/" | relative_url }}">{{ site.title }}</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> 
           <span class="navbar-toggler-icon"></span>
         </button>  
@@ -30,7 +29,8 @@
             </li> 
             <li class="nav-item">
               <a class="nav-link {% if page.url == '/about/' %}active{% endif %}" href="{{ "/about/" | relative_url }}">About Me</a>
-            </li><li class="nav-item">
+            </li> 
+            <li class="nav-item">
               <a class="nav-link {% if page.url == '/cv/' %}active{% endif %}" href="{{ "/cv/" | relative_url }}">CV</a>
             </li>
           </ul>
@@ -38,19 +38,18 @@
       </div>
     </nav>
   </header>
-
-
+  
+  
   <main class="container">
     {{ content }}
   </main>
 
-  <footer class="footer navbar-dark text-white text-center" ;>
+  <footer class="footer navbar-dark text-white text-center";>
     <div class="container">
-      &copy; 2025 {{ site.name }}. All rights not reserved.
+      &copy; 2024 {{ site.name }}. All rights not reserved.
     </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
