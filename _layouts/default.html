@@ -13,24 +13,22 @@
 </head>
 
 <header>
-  <nav>
-    <ul>
-      <li>
-        <a class="nav-link {% if page.url == '/' %}active{% endif %}" href="{{ "/" | relative_url }}">Home</a>
-      </li>
-      <li>
-        <a class="nav-link {% if page.url == '/projects/' %}active{% endif %}" href="{{ "/projects/" | relative_url
-          }}">Projects</a>
-      </li>
-      <li>
-        <a class="nav-link {% if page.url == '/about/' %}active{% endif %}" href="{{ "/about/" | relative_url }}">About
-          Me</a>
-      </li>
-      <li>
-        <a class="nav-link {% if page.url == '/cv/' %}active{% endif %}" href="{{ "/cv/" | relative_url }}">CV</a>
-      </li>
-    </ul>
-  </nav>
+  <ul>
+    <li>
+      <a class="nav-link {% if page.url == '/' %}active{% endif %}" href="{{ "/" | relative_url }}">Home</a>
+    </li>
+    <li>
+      <a class="nav-link {% if page.url == '/projects/' %}active{% endif %}" href="{{ "/projects/" | relative_url
+        }}">Projects</a>
+    </li>
+    <li>
+      <a class="nav-link {% if page.url == '/about/' %}active{% endif %}" href="{{ "/about/" | relative_url }}">About
+        Me</a>
+    </li>
+    <li>
+      <a class="nav-link {% if page.url == '/cv/' %}active{% endif %}" href="{{ "/cv/" | relative_url }}">CV</a>
+    </li>
+  </ul>
 </header>
 
 
