@@ -125,13 +125,11 @@ footer {
   vertical-align: top;
 
   &-l {
-    @extend .inline-image;
     float: left;
     margin-left: 0;
   }
 
   &-r {
-    @extend .inline-image;
     float: right;
     margin-right: 0;
   }
