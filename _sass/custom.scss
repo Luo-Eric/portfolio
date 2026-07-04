@@ -3,21 +3,6 @@ $primary-color: #3a3f58;
 $background-color: #f7f8fa;
 $text-color: #333;
 
-// Set theme colors based on the color_scheme variable
-@if $color_scheme == 'dark' {
-  $primary-color: #333;
-  $background-color: #000;
-  $text-color: #fff;
-} @else if $color_scheme == 'aqua' {
-  $primary-color: #598392;
-  $background-color: #eff6e0;
-  $text-color: #01161e;
-} @else if $color_scheme == 'desert' {
-  $primary-color: #925959;
-  $background-color: #f6f1e0;
-  $text-color: #1e0101;
-}
-
 
 .navbar, h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather', serif;
@@ -31,7 +16,7 @@ h1 {
 }
 
 body {
-  font-family: "Open Sans", 'Montserrat', 'Helvetica Neue' sans-serif;
+  font-family: "Open Sans", 'Montserrat', 'Helvetica Neue';
   line-height: 1.6;
   background-color: $background-color;
   color: $text-color;
