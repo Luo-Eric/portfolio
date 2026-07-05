@@ -28,6 +28,7 @@ header, footer {
   padding: 10px 5px;
   background: $primary-color;
   color: white;
+  text-decoration: none;
 }
 
 header {
@@ -51,7 +52,7 @@ header ul li a {
   display: block;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
+  // text-decoration: none;
 }
 
 header ul li a:hover {
