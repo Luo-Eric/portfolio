@@ -58,7 +58,6 @@ header ul {
 header ul li {
   float: left;
   position: relative;
-  left: 10vw;
 }
 
 header ul li a {
@@ -78,6 +77,11 @@ footer {
   margin-top: 40px;
   font-size: 0.9em;
   width:100%;
+}
+
+nav {
+  position: relative;
+  left: 10vw;
 }
 
 .project-item img {

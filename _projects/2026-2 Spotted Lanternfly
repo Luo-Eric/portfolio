@@ -14,12 +14,14 @@ image: /assets/images/adult-spotted-lanternflies-Lycorma-delicatula-772704972.jp
 
 <body>
   <h3> Navigation Menu </h3>
-  <ul style="list-style-type:disc;" class="indent-block indent">
-    <li><a href="#intro"> Introduction </a><br /></li>
-    <li><a href="#prop"> Client Pitch </a><br /></li>
-    <li><a href="#funcProto"> Functional Prototype </a><br /></li>
-    <li><a href="#report"> Client Report </a><br /></li>
-  </ul>
+  <nav>
+    <ul style="list-style-type:disc;" class="indent-block indent">
+      <li><a href="#intro"> Introduction </a><br /></li>
+      <li><a href="#prop"> Client Pitch </a><br /></li>
+      <li><a href="#funcProto"> Functional Prototype </a><br /></li>
+      <li><a href="#report"> Client Report </a><br /></li>
+    </ul>
+  </nav>
 
   <hr> <br> <br>
 
@@ -30,10 +32,9 @@ image: /assets/images/adult-spotted-lanternflies-Lycorma-delicatula-772704972.jp
 
   <br><br>
   <h2 id="prop"> Client Pitch </h2>
-  <object data="/portfolio/assets/images/Client Outline & Pitch.pdf" type="application/pdf" width="100%"
-    height="900px">
-    <p>Unable to display PDF file. <a
-        href="/portfolio/assets/images/Client Outline & Pitch.pdf">Download</a> instead.</p>
+  <object data="/portfolio/assets/images/Client Outline & Pitch.pdf" type="application/pdf" width="100%" height="900px">
+    <p>Unable to display PDF file. <a href="/portfolio/assets/images/Client Outline & Pitch.pdf">Download</a> instead.
+    </p>
   </object>
   <br> <br>
   <h2 id="funcProto"> Functional Prototype </h2>
@@ -145,10 +146,9 @@ image: /assets/images/adult-spotted-lanternflies-Lycorma-delicatula-772704972.jp
   higher quality brushes for our next prototype.
 
   <br> <br>
- <h2 id="report"> Client Report </h2>
-  <object data="/portfolio/assets/images/ODP 6 - Client Report.pdf" type="application/pdf" width="100%"
-    height="900px">
-    <p>Unable to display PDF file. <a
-        href="/portfolio/assets/images/ODP 6 - Client Report.pdf">Download</a> instead.</p>
+  <h2 id="report"> Client Report </h2>
+  <object data="/portfolio/assets/images/ODP 6 - Client Report.pdf" type="application/pdf" width="100%" height="900px">
+    <p>Unable to display PDF file. <a href="/portfolio/assets/images/ODP 6 - Client Report.pdf">Download</a> instead.
+    </p>
   </object>
 </body>
