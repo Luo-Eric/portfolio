@@ -40,13 +40,13 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
 
   <h3> Diagrams </h3>
   <h6 id="fig 1"> Figure 1 </h6>
-  <img src="/fa25-portfolio-EricLuo/assets/images/HE Lab Diagram.jpeg" style="width:100%; margin-bottom: 12px;">
+  <img src="/portfolio/assets/images/HE Lab Diagram.jpeg" style="width:100%; margin-bottom: 12px;">
   <h6 id="fig 2"> Figure 2 </h6>
-  <img src="/fa25-portfolio-EricLuo/assets/images/Parallel flow.jpeg" style="width:100%; margin-bottom: 12px;">
+  <img src="/portfolio/assets/images/Parallel flow.jpeg" style="width:100%; margin-bottom: 12px;">
   <h6 id="fig 3"> Figure 3 </h6>
-  <img src="/fa25-portfolio-EricLuo/assets/images/Counter flow.jpeg" style="width:100%; margin-bottom: 16px;">
+  <img src="/portfolio/assets/images/Counter flow.jpeg" style="width:100%; margin-bottom: 16px;">
 
-  <h4><a href="/fa25-portfolio-EricLuo/assets/images/Lab data.PNG" title="Original Lab Notes (unformatted)">>Data</a></h4>
+  <h4><a href="/portfolio/assets/images/Lab data.PNG" title="Original Lab Notes (unformatted)">>Data</a></h4>
   <h6>Parallel Flow</h6>
   <table>
     <tr>
