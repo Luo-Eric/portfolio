@@ -21,7 +21,7 @@ html {
 body {
   font-family: "Open Sans", 'Montserrat', 'Helvetica Neue';
   line-height: 1.6;
-  background-color: $background-color;
+  background-color: red;
   color: $text-color;
   margin: 0;
   padding: 0;
@@ -29,7 +29,7 @@ body {
 }
 
 main {
-  min-height: 100;
+  height: auto;
 
 }
 
