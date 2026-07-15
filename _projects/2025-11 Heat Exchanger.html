@@ -26,19 +26,29 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
 </style>
 
 <body>
-
-  <h3> Introduction </h3>
+    <nav>
+    <ul style="list-style-type:disc;">
+      <li><a href="#intro"> Introduction </a><br /></li>
+      <li><a href="#diagrams"> Diagrams </a><br /></li>
+      <li><a href="#data"> Data </a><br /></li>
+      <li><a href="#qual"> Qualitative Notes </a><br /></li>
+      <li><a href="#assume"> Assumptions </a><br /></li>
+      <li><a href="#calc"> Calculations </a><br /></li>
+      <li><a href="#inter"> Interpretation </a><br /></li>
+    </ul>
+  </nav>
+  <h3 id="intro"> Introduction </h3>
   As part of a class project, our group conducted an analysis on the performance of a brazed plate heat exchanger when
   used with heated and chilled water. In the image below, the heat exchanger is set to operate in a counter-flow
   configuration. We also took measurements regarding a parallel flow configuration.
 
   <img src="/portfolio/assets/images/Setup wet.JPG" width="100%" /> <br>
   <ul style="list-style-type:disc;">
-    <li>For this setup, we used two submersible water pumps to pump water from resevoirs, through the heat exchanger
+    <li>For this setup, we used two submersible water pumps to pump water from resevoirs, through the heat exchanger,
       and into catch buckets. </li>
   </ul>
 
-  <h3> Diagrams </h3>
+  <h3 id="diagrams"> Diagrams </h3>
   <h6 id="fig 1"> Figure 1 </h6>
   <img src="/portfolio/assets/images/HE Lab Diagram.jpeg" style="width:100%; margin-bottom: 12px;">
   <h6 id="fig 2"> Figure 2 </h6>
@@ -46,7 +56,7 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
   <h6 id="fig 3"> Figure 3 </h6>
   <img src="/portfolio/assets/images/Counter flow.jpeg" style="width:100%; margin-bottom: 16px;">
 
-  <h4><a href="/portfolio/assets/images/Lab data.PNG" title="Original Lab Notes (unformatted)">>Data</a></h4>
+  <h4 id="data"><a href="/portfolio/assets/images/Lab data.PNG" title="Original Lab Notes (unformatted)">>Data</a></h4>
   <h6>Parallel Flow</h6>
   <table>
     <tr>
@@ -85,7 +95,7 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
     </tr>
   </table>
   <br>
-  <h4> Qualitative Notes </h4>
+  <h4 id="qual"> Qualitative Notes </h4>
   <ul style="list-style-type:disc;">
     <li>While running, the sides of the heat exchanger felt noticeably warm/cold to the touch, indicating that the
       heat exchanger was not truly adiabatic. </li>
@@ -94,7 +104,7 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
       makes sense, as in parallel flow, the two lines approach each other's temperature. However, in counter-flow,
       it is possible for each line to approach the original temperature the opposite reservoir. </li>
   </ul>
-  <h4> Assumptions </h4>
+  <h4 id="assume"> Assumptions </h4>
   <ul style="list-style-type:disc;">
     <li> I assumed that there was minimal change in velocity and elevation between the entrance and exit of the heat
       exchanger, resulting in minimal change in kinetic and gravitational potential energy </li>
@@ -119,7 +129,7 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
     </li>
 
   </ul>
-  <h4> \(Q_{ambient}\) Calculations </h4>
+  <h4 id="calc"> \(Q_{ambient}\) Analysis </h4>
   <h6>Parallel Flow </h6>
   $$
   \displaylines{
@@ -177,12 +187,13 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
   \text{Finally,} \quad \frac{\dot{Q}_{t,counter}}{\dot{m}} = 84.69 \frac{kJ}{kg*K} \\
   }
   $$
-  <h4> Interpretation</h4>
+  <h4 id="inter"> Interpretation</h4>
   <ul style="list-style-type:disc;">
     <li>There was much more heat transfer in counter flow than in parallel flow</li>
     <ul>
       <li>Quantitatively, there was 27.5% more heat transfer in counter flow than in parallel flow</li>
-      <li>This was despite the set-up being the same except for slight differences in the initial hot water temperature</li>
+      <li>This was despite the set-up being the same except for slight differences in the initial hot water temperature
+      </li>
     </ul>
   </ul>
   <br><br>
