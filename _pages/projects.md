@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 
 <div class="gallery-container">
-<h2 class="section-title"> Featured </h2> <br>
+<h2 class="section-title"> Featured </h2> <br/>
 <div class="project-gallery">
     {% for project in site.projects %}
       <div class="gallery-item">
@@ -16,7 +16,7 @@ permalink: /projects/
       </div>
     {% endfor %}
 </div>
-<h2 class="section-title"> Other </h2> <br>
+<h2 class="section-title"> Other </h2> <br/>
 <div class="project-gallery">
     {% for project in site.projects %}
       <div class="gallery-item">
