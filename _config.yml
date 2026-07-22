@@ -28,7 +28,10 @@ permalink: /:categories/:title/
 collections:
   pages:
     output: true
-  projects:
+  featured:
+    output: true
+    permalink: /:collection/:path/
+  other:
     output: true
     permalink: /:collection/:path/
 

@@ -1,0 +1,155 @@
+---
+layout: project
+title: Proposed Device for SLF Removal
+description: Mechanical Spotted Lanternfly Remover
+technologies: [Mechanical Design]
+image: /assets/images/adult-spotted-lanternflies-Lycorma-delicatula-772704972.jpg
+---
+
+<head>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
+  </script>
+</head>
+
+
+<body>
+  <br> <br>
+  <h3> Table of Contents </h3>
+  <nav>
+    <ul style="list-style-type:disc;">
+      <li><a href="#intro"> Introduction </a><br /></li>
+      <li><a href="#prop"> Client Pitch </a><br /></li>
+      <li><a href="#funcProto"> Functional Prototype </a><br /></li>
+      <li><a href="#report"> Client Report </a><br /></li>
+    </ul>
+  </nav>
+
+  <hr> <br> <br>
+
+  <h2 id="intro"> Introduction </h2>
+  Working in collaboration with Cornell CALS Extension, E&J Gallo Winery, and National Grape, our team proposed 2
+  concepts for the removal of spotted lanternflies
+  from harvested grapes.
+
+  <br><br>
+  <h2 id="prop"> Client Pitch </h2>
+  <object data="/portfolio/assets/images/Client Outline & Pitch.pdf" type="application/pdf" width="100%" height="900px">
+    <p>Unable to display PDF file. <a href="/portfolio/assets/images/Client Outline & Pitch.pdf">Download</a> instead.
+    </p>
+  </object>
+  <br> <br>
+  <h2 id="funcProto"> Functional Prototype </h2>
+  Our concept is a filtering brush mechanism designed to remove SLF from grapes during the harvesting processing. Grapes
+  will travel along the harvesting machine’s conveyor belt and pass through a rotating brush placed above. The brush
+  will lightly contact the product stream, applying enough force to knock off the SLF from the grapes while minimizing
+  product loss.
+  <br> <br>
+  <h4> Design Tests </h4>
+  Our prototype consists of a rotating brush mounted above a conveyor system to remove spotted lanternflies (SLF) from
+  grapes during harvesting. The main mechanical risks involve brush motion and structural stability. The following tests
+  were performed to evaluate mechanical performance.
+
+  Test 1: Brush Lengths <br>
+  We bought three brush lengths to test for the optimal stiffness of the brushes’ bristles. The bristles were from the
+  same supplier and material, and were mounted in the same spiral pattern. Thus, the only variable was the length of the
+  bristles. The longer the bristles, the less stiffly they would interact with the target. We tested the brush lengths
+  with multiple RPM and summarized our observations below.
+  <br>
+  <table>
+    <tr>
+      <th>Brush Length</th>
+      <th>Observations</th>
+    </tr>
+    <tr>
+      <td>1” (shortest, stiffest)</td>
+      <td> Bristles were highly rigid and transferred significant force upon contact. This caused
+        frequent grape displacement, which if tested with real grapes could cause product damage. Clearance issues were
+        observed, with the brush aggressively contacting grapes while interacting with SLF. While SLF removal force was
+        high,
+        the damage and displacement to grapes was also noticeably high. </td>
+    </tr>
+    <tr>
+      <td>2"</td>
+      <td>Provided a moderate balance between stiffness and flexibility. SLF removal was generally effective, but
+        intermittent grape displacement still occurred, especially at higher RPMs. Some grapes were nudged out of
+        alignment or
+        lightly launched, indicating that the brush still applied excessive force under certain conditions. Clearance
+        improved
+        compared to the 1” brush but was not fully reliable.</td>
+    </tr>
+    <tr>
+      <td>3” (longest, least stiff)</td>
+      <td>Bristles exhibited greater flexibility, allowing them to conform to the grape surface while maintaining
+        contact with the modeled SLF. This resulted in a scraping or peeling action that consistently removed SLF
+        without applying enough force to significantly move or eject grapes. Grape flow remained stable, and clearance
+        issues were minimized. Performance was relatively consistent across tested RPMs.
+
+      </td>
+    </tr>
+  </table>
+
+  <br>
+
+  Based on these observations, it is clear that the 3” brush was the most effective. For the following test, we used the
+  3” brush. For our next prototype, we will also use a 3” brush in our design.
+
+  <br><br>
+  Test 2: Maximum Rotation Speed and Brush Direction Test <br>
+  We tested the stability of our mounts by seeing how fast we could drive our shaft with a cordless drill before our
+  prototype started shaking. We wanted to see the max RPM of our prototype before it became ineffective. To evaluate, we
+  made a mock conveyor belt and modeled grapes out of clay, each of the approximate weight of a grape (5-7g). We modeled
+  SLF with loops of masking tape, approximating their weight and clinging tendency. We drove our prototype using a
+  cordless drill and measured how many SLF were knocked off and how much our mounting moved. By changing the direction
+  of the drill, we also tested whether a clockwise or counterclockwise brush rotation was more effective for SLF
+  removal.
+  <br><br>
+
+  <table>
+    <tr>
+      <th>Brush Direction</th>
+      <th>Drill Speed</th>
+      <th># Modeled SLF Knocked Off</th>
+      <th>Movement of Mounts</th>
+    </tr>
+    <tr>
+      <td>Clockwise</td>
+      <td>1 (≈ 500 RPM)</td>
+      <td>3/8</td>
+      <td>Manageable (1-2mm)</td>
+    </tr>
+    <tr>
+      <td>Clockwise</td>
+      <td>2 (≈ 1500 RPM)</td>
+      <td>6/8</td>
+      <td>Somewhat unstable (> 5mm), added weights mitigated movement</td>
+    </tr>
+    <tr>
+      <td>Counterclockwise</td>
+      <td>1 (≈ 500 RPM)</td>
+      <td>0/8</td>
+      <td>Manageable (1-2mm)</td>
+    </tr>
+    <tr>
+      <td>Counterclockwise</td>
+      <td>2 (≈ 1500 RPM)</td>
+      <td>1/8</td>
+      <td>Somewhat unstable (> 5mm), added weights mitigated movement</td>
+    </tr>
+  </table>
+  <br>
+
+  Conclusion: <br>
+  For drill speeds higher than the first setting, our mounts moved > 5mm. To continue our tests, we used
+  weights to keep the mounts in place, but in the future our mounting design needs to be updated to be sturdier. In the
+  future, we should also ensure that our shaft is rotating about its center axle, since small misalignments in rotation
+  can cause instability. From our data, we can also conclude that we should drive our prototype in the clockwise
+  direction to increase SLF removal. At high speeds, the brush bristles started falling off, so we should also look at
+  higher quality brushes for our next prototype.
+
+  <br> <br>
+  <h2 id="report"> Client Report </h2>
+  <object data="/portfolio/assets/images/ODP 6 - Client Report.pdf" type="application/pdf" width="100%" height="900px">
+    <p>Unable to display PDF file. <a href="/portfolio/assets/images/ODP 6 - Client Report.pdf">Download</a> instead.
+    </p>
+  </object>
+</body>
