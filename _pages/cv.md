@@ -31,9 +31,9 @@ Aspiring engineering student with a strong foundation in problem solving and com
 
 #### Skills
 
-- **Software:** Autodesk Fusion 360, Onshape,
+- **Software:** Autodesk Fusion 360, Onshape, SOLIDWORKS
 - **Programming:** Python, Java, MATLAB  
-- **Tools:** 3D Printing, Laser Cutting  
+- **Tools:** 3D Printing, Laser Cutting, Machine Shop 
 
 ---
 
@@ -44,22 +44,6 @@ Aspiring engineering student with a strong foundation in problem solving and com
   - Took measurements under real-world conditions
   - Used measurements to validate assumptions and quantify performance
   - Applied thermodynamic principles to understand behavior
-
----
-
-#### Work Experience
-
-- **[Company Name] - Intern**  
-  Dec, 2025 - Current  
-  - Responsibility 1  
-  - Responsibility 2  
-
----
-
-#### Achievements & Certifications
-
-- First Aid and CPR/AED, Red Cross, 2024  
-- [Water Safety Instructor], Red Cross, 2024  
 
 ---
 
