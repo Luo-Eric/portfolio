@@ -1,0 +1,41 @@
+---
+layout: project
+title: Engineering Leadership Certification
+description: Leadership Certification 
+technologies: [Collaboration, Root Cause Analysis]
+image: /assets/images/Brazed plate heat exchanger cut away.jpg
+---
+
+<head>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
+  </script>
+</head>
+
+<style>
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 22px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 10%;
+    margin-right: auto;
+  }
+</style>
+
+<body>
+  <h3> Table of Contents </h3>
+  <nav>
+    <ul style="list-style-type:disc;">
+      <li><a href="#intro"> Introduction </a><br /></li>
+        https://www.duffield.cornell.edu/selander-center-engineering-leadership/engineering-leadership-certification/
+    </ul>
+  </nav>
+  <br>
+  <hr>
+  <h3 id="intro"> Introduction </h3>
+
+
+</body>
