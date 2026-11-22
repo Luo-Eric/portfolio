@@ -1,9 +1,9 @@
 ---
 layout: project
-title: Fluid- Mechanical Dissection
+title: Low Speed Glider
 description: Class project with Fluid Dynamics
 technologies: [Fluid Dynamics]
-image: /assets/images/Brazed plate heat exchanger cut away.jpg
+image: /assets/images/glider/glider.png
 ---
 
 <head>
