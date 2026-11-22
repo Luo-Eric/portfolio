@@ -1,0 +1,42 @@
+---
+layout: project
+title: Maker Club Workshops
+description: Organizing and running a variety of workshops
+technologies: [Collaboration, Instruction]
+image: /assets/images/Brazed plate heat exchanger cut away.jpg
+---
+
+<head>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
+  </script>
+</head>
+
+<style>
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 22px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 10%;
+    margin-right: auto;
+  }
+</style>
+
+<body>
+  <h3> Table of Contents </h3>
+  <nav>
+    <ul style="list-style-type:disc;">
+      <li><a href="#intro"> Introduction </a><br /></li>
+    </ul>
+  </nav>
+  <br>
+  <hr>
+
+  <h3 id="intro"> Introduction </h3>
+  Organizing and running or assisting with over 20 workshops each semester, covering a variety of topics.
+
+
+</body>
