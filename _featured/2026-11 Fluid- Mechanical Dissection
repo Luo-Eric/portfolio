@@ -30,27 +30,14 @@ image: /assets/images/Brazed plate heat exchanger cut away.jpg
   <nav>
     <ul style="list-style-type:disc;">
       <li><a href="#intro"> Introduction </a><br /></li>
-      <li><a href="#safety"> Safety and Culture </a><br /></li>
-      <li><a href="#3d"> FDM 3D Printer </a><br /></li>
-      <li><a href="#cad"> CAD: Fusion 360 </a><br /></li>
-      <li><a href="#soldering"> Soldering </a><br /></li>
-      <li><a href="#micro"> Microcontrollers </a><br /></li>
-      <li><a href="#em"> Embroidery </a><br /></li>
-      <li><a href="#cricut"> Cricut </a><br /></li>
+
     </ul>
   </nav>
   <br>
   <hr>
 
   <h3 id="intro"> Introduction </h3>
-  Organizing and running or assisting with over 20 workshops each semester, covering a variety of topics.
-  <h3 id="safety"> Safety and Culture </h3>
-  <h3 id="3d"> FDM 3D Printer </h3>
-  <h3 id="cad"> CAD: Fusion 360 </h3>
-  <h3 id="soldering"> Soldering </h3>
-  <h3 id="micro"> Microcontrollers </h3>
-  <h3 id="em"> Introduction </h3>
-  <h3 id="cricut"> Introduction </h3>
+  Dissecting and analyzing a vacuum pump.
 
 
 </body>
