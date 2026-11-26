@@ -30,6 +30,12 @@ image: /assets/images/glider/glider.png
   <nav>
     <ul style="list-style-type:disc;">
       <li><a href="#intro"> Introduction </a><br /></li>
+      <li><a href="#d1"> Design 1 </a><br /></li>
+      <li><a href="#b1"> Build 1 </a><br /></li>
+      <li><a href="#f1"> Flight 1 </a><br /></li>
+      <li><a href="#d2"> Design 2 </a><br /></li>
+      <li><a href="#b2"> Build 2 </a><br /></li>
+      <li><a href="#f2"> Flight 2 </a><br /></li>
 
     </ul>
   </nav>
@@ -37,6 +43,16 @@ image: /assets/images/glider/glider.png
   <hr>
   <h3 id="intro"> Introduction </h3>
   For my Intro to Aeronautics class, we took on the challenge of maximizing the time an unpowered glider could spend
-  within a radius. 
+  within a 20 m radius. 
+
+  <h3 id="d1"> Design 1 </h3>
+  With our given objective, my team decided to maximize \(C_L/C_D\). This would allow us to minimize our launch speed.
+  In order to identify an ideal airfoil, a teammate wrote a script. 
+
+  <h3 id="b1"> Build 1 </h3>
+  <h3 id="f1"> Flight 1 </h3>
+  <h3 id="d2"> Design 2 </h3>
+  <h3 id="b2"> Build 2 </h3>
+  <h3 id="f2"> Flight 2 </h3>
 
 </body>
